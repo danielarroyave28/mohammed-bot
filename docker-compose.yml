@@ -23,12 +23,7 @@ services:
     command: >
       trade
       --logfile /freqtrade/user_data/logs/freqtrade.log
-<<<<<<< HEAD
-      --db-url sqlite:////freqtrade/user_data/tradesv3clutch.sqlite
-      --config /freqtrade/user_data/config.json
-      --strategy clutch
-=======
       --db-url sqlite:////freqtrade/user_data/tradesv3keltner.sqlite
       --config /freqtrade/user_data/config.json
       --strategy keltnerhopt
->>>>>>> 931d478736c7499379d52aba997119067e9acced
+
