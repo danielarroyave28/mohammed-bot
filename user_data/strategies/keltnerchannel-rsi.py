@@ -16,7 +16,7 @@ from freqtrade.strategy import (BooleanParameter, CategoricalParameter, DecimalP
 class keltnerhopt(IStrategy):
     timeframe = "1d"
     # Both stoploss and roi are set to 100 to prevent them to give a sell signal.
-    stoploss = -0.3
+    stoploss = -0.308
     minimal_roi = {"0": 100}
 
     # Hyperopt spaces
